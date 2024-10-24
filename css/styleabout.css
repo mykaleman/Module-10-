@@ -1,0 +1,98 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #002855;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-content button {
+    background-color: #5d392b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-content img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.coffee-beans {
+    background-image: url('coffee-beans.png');
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
